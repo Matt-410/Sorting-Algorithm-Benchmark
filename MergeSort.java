@@ -2,8 +2,8 @@
  * File Name: MergeSort.java
  * Date: January 27, 2018
  * Author: Matt Huffman
- * Course: CMSC 451
- * Assignment: Project 1
+ * Course:
+ * Assignment:
  * Purpose: This is the sort class for the merge sort.
  * Source: The 2 recursive methods, iterative method, and merge method were found from
  *    http://kosbie.net/cmu/summer-08/15-100/handouts/IterativeMergeSort.java produced by David Kosbie.

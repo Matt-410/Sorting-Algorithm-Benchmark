@@ -2,8 +2,8 @@
  * File Name: SortMain.java
  * Date: January 26, 2018
  * Author: Matt Huffman
- * Course: CMSC 451
- * Assignment: Project 1
+ * Course:
+ * Assignment:
  * Purpose: This is the main class that contains the main method.
  * Created Using: IntelliJ IDEA
  */

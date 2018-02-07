@@ -2,8 +2,8 @@
  * File Name: SortInterface.java
  * Date: January 26, 2018
  * Author: Matt Huffman
- * Course: CMSC 451
- * Assignment: Project 1
+ * Course:
+ * Assignment:
  * Purpose: This is the interface for the sort class.
  * Created Using: IntelliJ IDEA
  */

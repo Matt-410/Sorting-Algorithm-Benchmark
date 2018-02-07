@@ -2,8 +2,8 @@
  * File Name: BenchmarkSorts.java
  * Date: January 26, 2018
  * Author: Matt Huffman
- * Course: CMSC 451
- * Assignment: Project 1
+ * Course:
+ * Assignment:
  * Purpose: This is the class that creates the data sets, runs the sorts, runs the benchmark, calculates the
  * benchmark data and displays the data.
  * Created Using: IntelliJ IDEA

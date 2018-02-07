@@ -2,8 +2,8 @@
  * File Name: BubbleSort.java
  * Date: January 26, 2018
  * Author: Matt Huffman
- * Course: CMSC 451
- * Assignment: Project 1
+ * Course:
+ * Assignment:
  * Purpose: This is the sort class for the bubble sort algorithm.
  * Created Using: IntelliJ IDEA
  */
