@@ -18,17 +18,23 @@ public class BubbleSort implements SortInterface{
         time = 0;
     }
 
-    // This method begins the recursive sort using the method required from the interface.
-    public void recursiveTime(int[] array) throws UnsortedException {
+    // This method begins the recursive sort using the method required from the interface. It is needed to calculate
+    // the time it takes to run the sort. Because of the nature of recursive methods I need to start the time then
+    // call a single method that will run and call itself until the recursion is done. I need this method to be
+    // called recursiveSort to avoid changing method names in the BenchmarkSorts class when other sorts are being
+    // tested. I want all sorting algorithms to use the same sort names.
+    public void recursiveSort(int[] array) throws UnsortedException {
         count = 0;
         long startTime = System.nanoTime();
-        recursiveSort(array);
+        recursiveSort2(array);
         time = System.nanoTime() - startTime;
     }
 
-    public void recursiveSort(int[] array) {
+    // This method is the main recursive sort method called by the first recursiveSort method.
+    private void recursiveSort2(int[] array) {
         count++;
         boolean swap = false;
+        long startTime = System.nanoTime();
         for(int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i+1]) {
                 int temp = array[i];
@@ -37,7 +43,8 @@ public class BubbleSort implements SortInterface{
                 swap = true;
             }
         }
-        if (swap) recursiveSort(array);
+        if (swap) recursiveSort2(array);
+        time = System.nanoTime() - startTime;
     }
 
     // Iterative bubble sort algorithm. Source: GeeksForGeeks website, code contributed by Rajat Mishra at:
